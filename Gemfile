@@ -1,1 +1,3 @@
-source "h
+source "https://rubygems.org"
+
+gem "pry" 
