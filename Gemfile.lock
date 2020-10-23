@@ -15,4 +15,8 @@ GEM
 PLATFORMS
   ruby
 
-DEPEND
+DEPENDENCIES
+  nokogiri
+  pry
+
+BUNDLE
