@@ -46,3 +46,7 @@ bundle install
 ### Testing
 
 ```` sh
+ruby test/generate_student_reports_test.rb
+````
+
+## [License](LICENSE)
