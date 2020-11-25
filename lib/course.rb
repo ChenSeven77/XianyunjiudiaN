@@ -1,2 +1,3 @@
 module George
-  class 
+  class Course
+    attr_accessor :
