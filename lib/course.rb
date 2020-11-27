@@ -8,4 +8,5 @@ module George
       @id = attributes[:id] # 4121
     end
 
-    def full
+    def full_id
+      "#{department_id}-#{id}" # I
