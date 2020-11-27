@@ -5,4 +5,7 @@ module George
     def initialize(attributes)
       @term_id = attributes[:term_id] # 201503
       @department_id = attributes[:department_id] # ISTM
-      @id = attributes[:
+      @id = attributes[:id] # 4121
+    end
+
+    def full
