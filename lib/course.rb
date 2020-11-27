@@ -4,4 +4,5 @@ module George
 
     def initialize(attributes)
       @term_id = attributes[:term_id] # 201503
-      @department_id = attributes[:department_
+      @department_id = attributes[:department_id] # ISTM
+      @id = attributes[:
