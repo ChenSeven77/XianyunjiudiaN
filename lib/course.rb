@@ -12,4 +12,5 @@ module George
       "#{department_id}-#{id}" # ISTM-4121
     end
 
-    def b
+    def bulletin_description_url
+      "htt
