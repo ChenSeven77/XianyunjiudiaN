@@ -9,4 +9,7 @@ module George
     end
 
     def full_id
-      "#{department_id}-#{id}" # I
+      "#{department_id}-#{id}" # ISTM-4121
+    end
+
+    def b
