@@ -13,4 +13,4 @@ module George
     end
 
     def bulletin_description_url
-      "htt
+      "http://bulletin.gwu.edu/searc
