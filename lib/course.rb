@@ -15,3 +15,6 @@ module George
     def bulletin_description_url
       "http://bulletin.gwu.edu/search/?P=#{department_id}+#{id}"
     end
+
+    def path
+      
