@@ -17,4 +17,4 @@ module George
     end
 
     def path
-      File.join(TERMS_PATH, self.term_
+      File.join(TERMS_PATH, self.term_id, "courses", self.f
