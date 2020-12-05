@@ -29,4 +29,7 @@ module George
     end
 
     def section_ids
-      self.sections_dir.entries.reject{|t| t.include?(".")} # converts [".", "..", "10", "11"] to 
+      self.sections_dir.entries.reject{|t| t.include?(".")} # converts [".", "..", "10", "11"] to ["10", "11"]
+    end
+
+    def sec
