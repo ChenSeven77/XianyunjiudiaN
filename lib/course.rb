@@ -24,4 +24,5 @@ module George
       File.join(self.path, "sections")
     end
 
-    def s
+    def sections_dir
+      Dir.new(self.
