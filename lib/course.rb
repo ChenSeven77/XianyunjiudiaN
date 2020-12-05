@@ -29,4 +29,4 @@ module George
     end
 
     def section_ids
-      self.sections_dir.entries.r
+      self.sections_dir.entries.reject{|t| t.inc
