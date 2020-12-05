@@ -21,4 +21,7 @@ module George
     end
 
     def sections_path
-      File.join(self.path, 
+      File.join(self.path, "sections")
+    end
+
+    def s
