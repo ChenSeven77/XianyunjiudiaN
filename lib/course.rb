@@ -25,4 +25,7 @@ module George
     end
 
     def sections_dir
-      Dir.new(self.
+      Dir.new(self.sections_path)
+    end
+
+    def sect
