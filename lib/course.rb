@@ -35,4 +35,5 @@ module George
     def sections
       self.section_ids.map do |section_id|
         section_attributes = {
-          :ter
+          :term_id => self.term_id,
+          :depa
