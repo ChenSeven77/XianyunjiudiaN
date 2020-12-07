@@ -33,4 +33,5 @@ module George
     end
 
     def sections
-      self.section_
+      self.section_ids.map do |section_id|
+        s
