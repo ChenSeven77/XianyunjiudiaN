@@ -37,4 +37,5 @@ module George
         section_attributes = {
           :term_id => self.term_id,
           :department_id => self.department_id,
-     
+          :course_id => self.id,
+          :id
