@@ -40,4 +40,4 @@ module George
           :course_id => self.id,
           :id => section_id
         }
-   
+        Section.new(section_attributes)
