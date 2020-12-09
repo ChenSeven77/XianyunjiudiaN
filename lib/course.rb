@@ -41,3 +41,5 @@ module George
           :id => section_id
         }
         Section.new(section_attributes)
+      end
+ 
