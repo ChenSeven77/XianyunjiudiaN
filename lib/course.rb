@@ -42,4 +42,6 @@ module George
         }
         Section.new(section_attributes)
       end
- 
+    end
+  end
+end
