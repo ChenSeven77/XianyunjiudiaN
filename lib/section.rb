@@ -1,2 +1,3 @@
 module George
-  cl
+  class Section
+    attr_a
