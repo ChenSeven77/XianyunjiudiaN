@@ -1,3 +1,3 @@
 module George
   class Section
-    attr_a
+    attr_accessor :id, :department_id, :cou
