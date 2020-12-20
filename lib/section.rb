@@ -3,4 +3,4 @@ module George
     attr_accessor :id, :department_id, :course_id, :term_id
 
     def initialize(attributes)
-      @term_id = 
+      @term_id = attributes[:term_id]
