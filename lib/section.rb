@@ -6,4 +6,7 @@ module George
       @term_id = attributes[:term_id]
       @department_id = attributes[:department_id]
       @course_id = attributes[:course_id]
-      @id = attri
+      @id = attributes[:id]
+    end
+
+    def s
