@@ -10,4 +10,4 @@ module George
     end
 
     def schedule_url
-      "http://my.gwu.edu
+      "http://my.gwu.edu/mod/pws/courses.cfm?camp
