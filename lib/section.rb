@@ -5,4 +5,5 @@ module George
     def initialize(attributes)
       @term_id = attributes[:term_id]
       @department_id = attributes[:department_id]
-      @course_id = attributes[:course_id
+      @course_id = attributes[:course_id]
+      @id = attri
