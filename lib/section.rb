@@ -9,4 +9,5 @@ module George
       @id = attributes[:id]
     end
 
-    def s
+    def schedule_url
+      "http://my.gwu.edu
