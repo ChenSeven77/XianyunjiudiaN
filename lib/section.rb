@@ -13,4 +13,5 @@ module George
       "http://my.gwu.edu/mod/pws/courses.cfm?campId=1&termId=#{self.term_id}&subjId=#{self.department_id}"
     end
 
-    def required_materials_
+    def required_materials_url
+      "http://ww
