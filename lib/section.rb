@@ -14,4 +14,4 @@ module George
     end
 
     def required_materials_url
-      "http://ww
+      "http://www.bkstr.com/webapp/wcs/sto
