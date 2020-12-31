@@ -14,4 +14,4 @@ module George
     end
 
     def required_materials_url
-      "http://www.bkstr.com/webapp/wcs/sto
+      "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?boo
