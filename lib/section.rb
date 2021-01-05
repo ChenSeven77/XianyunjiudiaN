@@ -24,3 +24,6 @@ module George
     def path
       File.join(TERMS_PATH, self.term_id, "courses", self.course_full_id, "sections", self.id)
     end
+
+    #
+    # HTML DOWNLOADS (INPUTS
