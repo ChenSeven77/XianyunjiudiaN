@@ -17,4 +17,5 @@ module George
       "http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=122&term_id-1=#{self.term_id}&div-1=&dept-1=#{self.department_id}&course-1=#{self.course_id}&section-1=#{self.id}"
     end
 
-    def course_full_
+    def course_full_id
+      "#{self.depart
