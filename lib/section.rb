@@ -18,4 +18,5 @@ module George
     end
 
     def course_full_id
-      "#{self.depart
+      "#{self.department_id}-#{self.course_id}"
+    en
