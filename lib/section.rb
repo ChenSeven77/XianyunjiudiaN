@@ -19,4 +19,7 @@ module George
 
     def course_full_id
       "#{self.department_id}-#{self.course_id}"
-    en
+    end
+
+    def path
+      File.join(T
