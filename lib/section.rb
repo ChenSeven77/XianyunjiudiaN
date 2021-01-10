@@ -30,4 +30,7 @@ module George
     #
 
     def downloads_path
-      File.join(path, 
+      File.join(path, "downloads")
+    end
+
+    def
