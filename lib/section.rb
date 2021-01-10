@@ -26,4 +26,7 @@ module George
     end
 
     #
-    # HTML DOWNLOADS (INPUTS
+    # HTML DOWNLOADS (INPUTS)
+    #
+
+    def downloads_p
