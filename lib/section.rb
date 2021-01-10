@@ -29,4 +29,5 @@ module George
     # HTML DOWNLOADS (INPUTS)
     #
 
-    def downloads_p
+    def downloads_path
+      File.join(path, 
