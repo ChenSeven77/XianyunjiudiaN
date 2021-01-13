@@ -37,4 +37,5 @@ module George
       File.join(downloads_path, "class_summary.html")
     end
 
-    def download_class
+    def download_class_details_path
+      File.join
