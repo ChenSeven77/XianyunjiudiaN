@@ -38,4 +38,4 @@ module George
     end
 
     def download_class_details_path
-      File.join
+      File.join(downloads_path, "class_details.html"
