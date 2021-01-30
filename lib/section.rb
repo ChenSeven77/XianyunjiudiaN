@@ -50,4 +50,7 @@ module George
     ###end
 
     #
-    # CSV REPORTS (OUTPUTS
+    # CSV REPORTS (OUTPUTS)
+    #
+
+    def reports_path
