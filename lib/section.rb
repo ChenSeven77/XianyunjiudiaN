@@ -54,4 +54,7 @@ module George
     #
 
     def reports_path
-      File.join(path, "repor
+      File.join(path, "reports")
+    end
+
+    def enrollment_report_pat
