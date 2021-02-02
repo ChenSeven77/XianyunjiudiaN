@@ -54,3 +54,4 @@ module George
     #
 
     def reports_path
+      File.join(path, "repor
