@@ -57,4 +57,5 @@ module George
       File.join(path, "reports")
     end
 
-    def enrollment_report_pat
+    def enrollment_report_path
+      File.join(reports_path, "en
