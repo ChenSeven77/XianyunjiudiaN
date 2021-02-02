@@ -58,4 +58,7 @@ module George
     end
 
     def enrollment_report_path
-      File.join(reports_path, "en
+      File.join(reports_path, "enrollments.csv")
+    end
+
+    def stu
