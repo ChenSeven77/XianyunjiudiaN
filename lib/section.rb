@@ -70,4 +70,4 @@ module George
     ###end
 ###
     ###def student_transcript_report_path
-    ### 
+    ###  File.join(reports_path, "stu
