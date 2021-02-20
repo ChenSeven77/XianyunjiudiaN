@@ -69,4 +69,5 @@ module George
     ###  File.join(reports_path, "student_addresses.csv")
     ###end
 ###
-    ###def student_tran
+    ###def student_transcript_report_path
+    ### 
