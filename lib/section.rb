@@ -117,4 +117,7 @@ module George
 
 
     #
-    # REPORT-GENERATION METHO
+    # REPORT-GENERATION METHODS
+    #
+
+    def generate_enr
