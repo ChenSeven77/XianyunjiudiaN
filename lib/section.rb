@@ -120,4 +120,5 @@ module George
     # REPORT-GENERATION METHODS
     #
 
-    def generate_enr
+    def generate_enrollment_report
+      puts "GENERATING
