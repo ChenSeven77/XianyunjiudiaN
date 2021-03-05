@@ -121,4 +121,4 @@ module George
     #
 
     def generate_enrollment_report
-      puts "GENERATING
+      puts "GENERATING ENROLLMENT REPORT (RO
