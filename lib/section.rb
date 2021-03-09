@@ -123,4 +123,6 @@ module George
     def generate_enrollment_report
       puts "GENERATING ENROLLMENT REPORT (ROSTER) FOR SECTION #{self.inspect}"
 
-      FileUtils.rm_f(
+      FileUtils.rm_f(enrollment_report_path)
+
+      @enroll
