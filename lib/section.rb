@@ -125,4 +125,6 @@ module George
 
       FileUtils.rm_f(enrollment_report_path)
 
-      @enroll
+      @enrollments = self.enrollments
+
+ 
