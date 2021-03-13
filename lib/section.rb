@@ -127,4 +127,4 @@ module George
 
       @enrollments = self.enrollments
 
-      CSV.open(enrollment_report_path, "w", :write_hea
+      CSV.open(enrollment_report_path, "w", :write_headers=> true, :headers
