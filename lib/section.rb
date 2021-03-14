@@ -127,4 +127,4 @@ module George
 
       @enrollments = self.enrollments
 
-      CSV.open(enrollment_report_path, "w", :write_headers=> true, :headers => @enrollments.first.keys
+      CSV.open(enrollment_report_path, "w", :write_headers=> true, :headers => @enrollments.first.keys.map{|k| k.to_s}) do |csv
