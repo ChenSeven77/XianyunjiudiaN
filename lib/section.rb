@@ -129,4 +129,4 @@ module George
 
       CSV.open(enrollment_report_path, "w", :write_headers=> true, :headers => @enrollments.first.keys.map{|k| k.to_s}) do |csv|
         @enrollments.each do |enrollment_attributes|
-       
+          csv << enrollment_attributes.value
