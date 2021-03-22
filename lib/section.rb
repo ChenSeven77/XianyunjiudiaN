@@ -133,3 +133,5 @@ module George
         end
       end
     end
+
+    def generate_studen
