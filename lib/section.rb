@@ -134,4 +134,5 @@ module George
       end
     end
 
-    def generate_studen
+    def generate_student_report
+      puts "GENERATI
