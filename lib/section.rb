@@ -135,4 +135,6 @@ module George
     end
 
     def generate_student_report
-      puts "GENERATING STUDENT REPORT FOR SECTION
+      puts "GENERATING STUDENT REPORT FOR SECTION #{self.inspect}"
+
+  
