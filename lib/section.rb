@@ -135,4 +135,4 @@ module George
     end
 
     def generate_student_report
-      puts "GENERATI
+      puts "GENERATING STUDENT REPORT FOR SECTION
