@@ -137,4 +137,6 @@ module George
     def generate_student_report
       puts "GENERATING STUDENT REPORT FOR SECTION #{self.inspect}"
 
-      FileUtils.rm_f(student
+      FileUtils.rm_f(student_report_path)
+
+      @students 
