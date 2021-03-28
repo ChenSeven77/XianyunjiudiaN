@@ -139,4 +139,6 @@ module George
 
       FileUtils.rm_f(student_report_path)
 
-      @students 
+      @students = self.students
+
+      CSV.open(stu
