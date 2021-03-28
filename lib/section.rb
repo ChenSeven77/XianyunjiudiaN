@@ -141,4 +141,4 @@ module George
 
       @students = self.students
 
-      CSV.open(stu
+      CSV.open(student_report_path, "w", :writ
