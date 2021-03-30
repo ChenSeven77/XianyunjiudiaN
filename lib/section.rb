@@ -141,4 +141,5 @@ module George
 
       @students = self.students
 
-      CSV.open(student_report_path, "w", :write_headers=> true, :headers => @students.first.keys.map{|k|
+      CSV.open(student_report_path, "w", :write_headers=> true, :headers => @students.first.keys.map{|k| k.to_s}) do |csv|
+        @
