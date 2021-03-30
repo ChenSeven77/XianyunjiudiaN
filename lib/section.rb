@@ -141,4 +141,4 @@ module George
 
       @students = self.students
 
-      CSV.open(student_report_path, "w", :writ
+      CSV.open(student_report_path, "w", :write_headers=> true, :headers 
