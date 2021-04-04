@@ -145,4 +145,7 @@ module George
         @students.each do |student_attributes|
           csv << student_attributes.values
         end
-      en
+      end
+    end
+
+    ###def gener
