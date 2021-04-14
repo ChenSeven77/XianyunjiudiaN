@@ -151,4 +151,6 @@ module George
     ###def generate_student_address_report
     ###  puts "GENERATING STUDENT ADDRESS REPORT FOR SECTION #{self.inspect}"
 ###
-    ###  FileUtils.rm_f(student_address_report_path
+    ###  FileUtils.rm_f(student_address_report_path)
+###
+    ###  @student_ad
