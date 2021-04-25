@@ -153,4 +153,6 @@ module George
 ###
     ###  FileUtils.rm_f(student_address_report_path)
 ###
-    ###  @student_addresses = self.studen
+    ###  @student_addresses = self.student_addresses
+###
+    ###  CS
