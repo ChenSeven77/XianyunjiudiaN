@@ -155,4 +155,4 @@ module George
 ###
     ###  @student_addresses = self.student_addresses
 ###
-    ###  CSV.open(student_address_report_path, "w", :write
+    ###  CSV.open(student_address_report_path, "w", :write_headers=> true, :headers => @s
