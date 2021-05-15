@@ -178,4 +178,4 @@ module George
 
 
 
-    # deprecated be
+    # deprecated because #students gets all 
