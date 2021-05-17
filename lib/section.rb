@@ -185,4 +185,4 @@ module George
       # Get Data Table(s)
       #
 
-      document = 
+      document = Nokogiri::HTML(open(download_cl
