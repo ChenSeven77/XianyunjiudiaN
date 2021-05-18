@@ -187,4 +187,4 @@ module George
 
       document = Nokogiri::HTML(open(download_class_summary_path))
       tables = document.css("table")
-    
+      data_tables = tables.select{|t| 
