@@ -193,4 +193,7 @@ module George
       enrollments_table         = data_tables.find{|t| t.attributes["summary"] && t.attributes["summary"].value == "This table displays a list of students registered for the course; summary information about each student is provided." }
 
       #
-      # Parse Co
+      # Parse Course Summary Table
+      #
+
+  
