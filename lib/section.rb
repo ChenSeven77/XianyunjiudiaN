@@ -196,4 +196,7 @@ module George
       # Parse Course Summary Table
       #
 
-  
+      # todo
+
+      #
+     
