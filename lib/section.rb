@@ -203,3 +203,6 @@ module George
       #
 
       # todo
+
+      #
+      # Parse Enrollm
