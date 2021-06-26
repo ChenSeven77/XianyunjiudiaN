@@ -208,4 +208,6 @@ module George
       # Parse Enrollments Table
       #
 
-    
+      enrollments = []
+
+      enro
