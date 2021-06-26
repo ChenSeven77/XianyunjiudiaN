@@ -210,4 +210,6 @@ module George
 
       enrollments = []
 
-      enrollment_rows = enrollments_table
+      enrollment_rows = enrollments_table.css("tr")
+
+      enrollm
