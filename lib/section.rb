@@ -210,4 +210,4 @@ module George
 
       enrollments = []
 
-      enro
+      enrollment_rows = enrollments_table
