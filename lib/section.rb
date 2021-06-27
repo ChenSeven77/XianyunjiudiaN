@@ -212,4 +212,4 @@ module George
 
       enrollment_rows = enrollments_table.css("tr")
 
-      enrollm
+      enrollment_rows.each_with_index do |enr
