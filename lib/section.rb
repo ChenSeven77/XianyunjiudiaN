@@ -212,4 +212,5 @@ module George
 
       enrollment_rows = enrollments_table.css("tr")
 
-      enrollment_rows.each_with_index do |enr
+      enrollment_rows.each_with_index do |enrollment, index|
+        next if i
