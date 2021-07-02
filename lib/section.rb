@@ -213,4 +213,4 @@ module George
       enrollment_rows = enrollments_table.css("tr")
 
       enrollment_rows.each_with_index do |enrollment, index|
-        next if index == 0 # ... skip the first row (headers) where enroll
+        next if index == 0 # ... skip the first row (headers) where enrollment.content == "\nRecordNumber\
