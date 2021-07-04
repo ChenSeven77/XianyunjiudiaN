@@ -217,4 +217,4 @@ module George
 
         # Get email link
 
-        email_
+        email_link = enrollment.css(
