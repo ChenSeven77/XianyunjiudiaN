@@ -217,4 +217,4 @@ module George
 
         # Get email link
 
-        email_link = enrollment.css("a").find{|a| a.attributes
+        email_link = enrollment.css("a").find{|a| a.attributes["href"].value.include?("mai
