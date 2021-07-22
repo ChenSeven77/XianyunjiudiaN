@@ -219,4 +219,6 @@ module George
 
         email_link = enrollment.css("a").find{|a| a.attributes["href"].value.include?("mailto:") }
 
-        # Parse emai
+        # Parse email link
+
+        student_emai
