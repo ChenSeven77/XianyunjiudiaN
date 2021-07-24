@@ -221,4 +221,4 @@ module George
 
         # Parse email link
 
-        student_emai
+        student_email_address = email_link.attribut
