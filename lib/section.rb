@@ -221,4 +221,4 @@ module George
 
         # Parse email link
 
-        student_email_address = email_link.attribut
+        student_email_address = email_link.attributes["href"].value.gsub("mailto:","
