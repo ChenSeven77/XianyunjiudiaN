@@ -221,4 +221,5 @@ module George
 
         # Parse email link
 
-        student_email_address = email_link.attributes["href"].value.gsub("mailto:","") #net_id = email_addres
+        student_email_address = email_link.attributes["href"].value.gsub("mailto:","") #net_id = email_address.gsub("@gwu.edu")
+        #student_
