@@ -223,4 +223,4 @@ module George
 
         student_email_address = email_link.attributes["href"].value.gsub("mailto:","") #net_id = email_address.gsub("@gwu.edu")
         #student_net_id = student_email_address.gsub("@gwu.edu","")
-        s
+        student_full_name = email_link.attribut
