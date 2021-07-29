@@ -225,4 +225,6 @@ module George
         #student_net_id = student_email_address.gsub("@gwu.edu","")
         student_full_name = email_link.attributes["target"].value
 
-        # Get
+        # Get table values
+
+      
