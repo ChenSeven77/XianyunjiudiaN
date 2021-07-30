@@ -227,4 +227,4 @@ module George
 
         # Get table values
 
-      
+        attribute_values = e
