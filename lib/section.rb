@@ -227,4 +227,4 @@ module George
 
         # Get table values
 
-        attribute_values = e
+        attribute_values = enrollment.children.tex
