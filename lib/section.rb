@@ -227,4 +227,6 @@ module George
 
         # Get table values
 
-        attribute_values = enrollment.children.tex
+        attribute_values = enrollment.children.text.strip.split("\n")
+
+        # Pa
