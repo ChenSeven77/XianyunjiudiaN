@@ -229,4 +229,6 @@ module George
 
         attribute_values = enrollment.children.text.strip.split("\n")
 
-        # Pa
+        # Parse table values
+
+        
