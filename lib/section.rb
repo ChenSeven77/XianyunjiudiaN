@@ -232,4 +232,5 @@ module George
         # Parse table values
 
         record_number = attribute_values[0]
-        waitlist_position 
+        waitlist_position = attribute_values[1]
+        
