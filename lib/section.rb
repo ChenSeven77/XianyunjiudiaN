@@ -231,4 +231,5 @@ module George
 
         # Parse table values
 
-        
+        record_number = attribute_values[0]
+ 
