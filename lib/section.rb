@@ -233,4 +233,4 @@ module George
 
         record_number = attribute_values[0]
         waitlist_position = attribute_values[1]
-        
+        #student_name = attribute_value
