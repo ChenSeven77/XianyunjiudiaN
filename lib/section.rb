@@ -237,4 +237,4 @@ module George
         student_gwid = attribute_values[3]
         registration_status = attribute_values[4].gsub("**","")
         level = attribute_values[5]
-        cre
+        credits = attribute_valu
