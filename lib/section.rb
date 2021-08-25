@@ -235,4 +235,5 @@ module George
         waitlist_position = attribute_values[1]
         #student_name = attribute_values[2].strip
         student_gwid = attribute_values[3]
-        registration_status = attribute_values[
+        registration_status = attribute_values[4].gsub("**","")
+        level = a
