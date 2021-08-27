@@ -239,4 +239,4 @@ module George
         level = attribute_values[5]
         credits = attribute_values[6].strip
         #binding.pry
-  
+        notification_expires = 
