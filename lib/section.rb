@@ -241,4 +241,4 @@ module George
         #binding.pry
         notification_expires = attribute_values[7].strip
 
-        #first_name_middle_initial
+        #first_name_middle_initial = student_name.split(",").la
