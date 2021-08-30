@@ -242,4 +242,6 @@ module George
         notification_expires = attribute_values[7].strip
 
         #first_name_middle_initial = student_name.split(",").last.strip
-        #last_name = student_name.split(",").fi
+        #last_name = student_name.split(",").first.strip
+
+        # Transfor
