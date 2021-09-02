@@ -244,4 +244,6 @@ module George
         #first_name_middle_initial = student_name.split(",").last.strip
         #last_name = student_name.split(",").first.strip
 
-        # Transfor
+        # Transform.
+
+        enrollment_attributes = {
