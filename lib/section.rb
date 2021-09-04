@@ -247,3 +247,5 @@ module George
         # Transform.
 
         enrollment_attributes = {
+          :id => record_number,
+         
