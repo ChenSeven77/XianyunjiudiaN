@@ -248,4 +248,4 @@ module George
 
         enrollment_attributes = {
           :id => record_number,
-         
+          :waitlist_position
