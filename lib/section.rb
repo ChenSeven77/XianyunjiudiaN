@@ -249,4 +249,5 @@ module George
         enrollment_attributes = {
           :id => record_number,
           :waitlist_position => waitlist_position,
-          :student_gwid => student_gw
+          :student_gwid => student_gwid,
+          :student_email_ad
