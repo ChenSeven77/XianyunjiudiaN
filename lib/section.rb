@@ -250,4 +250,5 @@ module George
           :id => record_number,
           :waitlist_position => waitlist_position,
           :student_gwid => student_gwid,
-          :student_email_address => student_
+          :student_email_address => student_email_address,
+          :stud
