@@ -251,4 +251,4 @@ module George
           :waitlist_position => waitlist_position,
           :student_gwid => student_gwid,
           :student_email_address => student_email_address,
-          :stud
+          :student_full_name => student_full_na
