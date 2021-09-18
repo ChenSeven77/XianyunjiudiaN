@@ -252,4 +252,5 @@ module George
           :student_gwid => student_gwid,
           :student_email_address => student_email_address,
           :student_full_name => student_full_name,
-          :registration_status => re
+          :registration_status => registration_status,
+          :
