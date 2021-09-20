@@ -255,4 +255,4 @@ module George
           :registration_status => registration_status,
           :student_level => level,
           :credits => credits,
-          :notif
+          :notification_expires => notification
