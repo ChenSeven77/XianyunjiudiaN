@@ -254,4 +254,5 @@ module George
           :student_full_name => student_full_name,
           :registration_status => registration_status,
           :student_level => level,
-          :credits =
+          :credits => credits,
+          :notif
