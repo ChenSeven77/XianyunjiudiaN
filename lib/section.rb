@@ -258,4 +258,4 @@ module George
           :notification_expires => notification_expires
         }
 
-    
+        enrollments << enrollm
