@@ -261,4 +261,5 @@ module George
         enrollments << enrollment_attributes
       end
 
-      re
+      return enrollments
+    e
