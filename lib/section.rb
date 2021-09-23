@@ -262,4 +262,19 @@ module George
       end
 
       return enrollments
-    e
+    end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    def students
