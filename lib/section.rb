@@ -283,4 +283,5 @@ module George
       # Get Data Table(s)
       #
 
-      document = Nokogiri::HTML(open(download
+      document = Nokogiri::HTML(open(download_class_details_path))
+   
