@@ -284,4 +284,5 @@ module George
       #
 
       document = Nokogiri::HTML(open(download_class_details_path))
-      tables = document.css("
+      tables = document.css("table")
+      data_tabl
