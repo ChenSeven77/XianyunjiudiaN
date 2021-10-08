@@ -285,4 +285,5 @@ module George
 
       document = Nokogiri::HTML(open(download_class_details_path))
       tables = document.css("table")
-      data_tables = tables.select{|t| t.attributes["class"] && t.attributes["class"].value == "datadisp
+      data_tables = tables.select{|t| t.attributes["class"] && t.attributes["class"].value == "datadisplaytable"}
+      #cou
