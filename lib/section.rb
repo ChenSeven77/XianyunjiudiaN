@@ -288,4 +288,4 @@ module George
       data_tables = tables.select{|t| t.attributes["class"] && t.attributes["class"].value == "datadisplaytable"}
       #course_summary_table = data_tables.find{|t| t.attributes["summary"] && t.attributes["summary"].value == "This table displays the attributes of the course." }
       #enrollment_summary_table = data_tables.find{|t| t.attributes["summary"] && t.attributes["summary"].value == "This table displays enrollment and waitlist counts." }
-      students_table = data_tables.fin
+      students_table = data_tables.find{|t| t.attributes["summary"] 
