@@ -291,4 +291,4 @@ module George
       students_table = data_tables.find{|t| t.attributes["summary"] && t.attributes["summary"].value == "This table displays a list of students registered for the course; detailed information about each student is provided." }
 
       #
-      # Parse
+      # Parse Course Summary Table
