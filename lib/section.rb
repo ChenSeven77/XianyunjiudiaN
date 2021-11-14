@@ -304,4 +304,5 @@ module George
       # Parse Students Table
       #
 
- 
+      students = []
+     
