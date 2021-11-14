@@ -305,4 +305,5 @@ module George
       #
 
       students = []
-      student = {:majors => [], :mi
+      student = {:majors => [], :minors => [], :program => nil}
+ 
