@@ -309,3 +309,4 @@ module George
       #student = George::Student.new({})
       #student = {}
       student_id = 1
+      summary_next =
