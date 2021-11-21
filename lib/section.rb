@@ -307,4 +307,5 @@ module George
       students = []
       student = {:majors => [], :minors => [], :program => nil}
       #student = George::Student.new({})
-      #student 
+      #student = {}
+      student_id = 1
