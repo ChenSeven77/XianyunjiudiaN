@@ -310,4 +310,5 @@ module George
       #student = {}
       student_id = 1
       summary_next = false
-      degree_next 
+      degree_next = false
+      save_next = f
