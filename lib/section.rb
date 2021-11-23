@@ -312,4 +312,5 @@ module George
       summary_next = false
       degree_next = false
       save_next = false
-      rows = students_
+      rows = students_table.css("tr")
+      rows.
