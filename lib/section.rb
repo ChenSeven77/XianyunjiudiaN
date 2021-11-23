@@ -311,4 +311,5 @@ module George
       student_id = 1
       summary_next = false
       degree_next = false
-      save_next = f
+      save_next = false
+      rows = students_
