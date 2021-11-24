@@ -313,4 +313,4 @@ module George
       degree_next = false
       save_next = false
       rows = students_table.css("tr")
-      rows.
+      rows.each_with_index do |row, ind
