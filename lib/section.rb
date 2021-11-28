@@ -314,4 +314,5 @@ module George
       save_next = false
       rows = students_table.css("tr")
       rows.each_with_index do |row, index|
-        if row.content == "\nRecordNumber\nStudent Name\nID\nRegistration Status\nWaitlist Position\nNotification Expires\nRegistration
+        if row.content == "\nRecordNumber\nStudent Name\nID\nRegistration Status\nWaitlist Position\nNotification Expires\nRegistration Number\n \n"
+     
