@@ -316,4 +316,4 @@ module George
       rows.each_with_index do |row, index|
         if row.content == "\nRecordNumber\nStudent Name\nID\nRegistration Status\nWaitlist Position\nNotification Expires\nRegistration Number\n \n"
           pp "-----------------"
-  
+          pp "Row: #{index}; Studen
