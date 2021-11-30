@@ -318,4 +318,4 @@ module George
           pp "-----------------"
           pp "Row: #{index}; Student: #{student_id}"
 
-          un
+          unless student == {:majors => 
