@@ -318,4 +318,5 @@ module George
           pp "-----------------"
           pp "Row: #{index}; Student: #{student_id}"
 
-          unless student == {:majors => 
+          unless student == {:majors => [], :minors => [], :program => nil}
+   
