@@ -319,4 +319,4 @@ module George
           pp "Row: #{index}; Student: #{student_id}"
 
           unless student == {:majors => [], :minors => [], :program => nil}
-   
+            student = student.sor
