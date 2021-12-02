@@ -319,4 +319,4 @@ module George
           pp "Row: #{index}; Student: #{student_id}"
 
           unless student == {:majors => [], :minors => [], :program => nil}
-            student = student.sort.to_h # work-around to sort
+            student = student.sort.to_h # work-around to sort keys for consistent csv file w
