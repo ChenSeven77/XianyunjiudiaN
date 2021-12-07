@@ -321,4 +321,4 @@ module George
           unless student == {:majors => [], :minors => [], :program => nil}
             student = student.sort.to_h # work-around to sort keys for consistent csv file writing
             pp "SAVING STUDENT --> #{student}"
-            students << s
+            students << student # write to me
