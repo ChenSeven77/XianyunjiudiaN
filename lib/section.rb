@@ -323,4 +323,4 @@ module George
             pp "SAVING STUDENT --> #{student}"
             students << student # write to memory
             student_id+=1
-            student = 
+            student = {:majors => [], :minors => [], :
