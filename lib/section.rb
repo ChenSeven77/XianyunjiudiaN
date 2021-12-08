@@ -322,4 +322,5 @@ module George
             student = student.sort.to_h # work-around to sort keys for consistent csv file writing
             pp "SAVING STUDENT --> #{student}"
             students << student # write to memory
-            student_
+            student_id+=1
+            student = 
