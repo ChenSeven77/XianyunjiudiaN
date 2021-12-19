@@ -323,4 +323,7 @@ module George
             pp "SAVING STUDENT --> #{student}"
             students << student # write to memory
             student_id+=1
-            student = {:majors => [], :minors => [], :program => nil} # reset / delete all student attributes, if any 
+            student = {:majors => [], :minors => [], :program => nil} # reset / delete all student attributes, if any exist
+          end
+
+     
