@@ -326,4 +326,4 @@ module George
             student = {:majors => [], :minors => [], :program => nil} # reset / delete all student attributes, if any exist
           end
 
-          summary_next = true # expec
+          summary_next = true # expect the next row to contain studen
