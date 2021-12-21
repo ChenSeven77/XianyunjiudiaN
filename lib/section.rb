@@ -328,4 +328,7 @@ module George
 
           summary_next = true # expect the next row to contain student info
           next
-        en
+        end
+
+        if summary_next == true
+ 
