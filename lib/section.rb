@@ -331,4 +331,4 @@ module George
         end
 
         if summary_next == true
-          summary_row = row.children.
+          summary_row = row.children.text.strip.split("\n") # ["1", "
