@@ -331,4 +331,5 @@ module George
         end
 
         if summary_next == true
-          summary_row = row.children.text.strip.split("\n") # ["1", "Student, Three C. ", "G1234567", "**Web 
+          summary_row = row.children.text.strip.split("\n") # ["1", "Student, Three C. ", "G1234567", "**Web Registered**", "0", " ", "8"]
+     
