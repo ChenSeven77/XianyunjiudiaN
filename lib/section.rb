@@ -332,4 +332,4 @@ module George
 
         if summary_next == true
           summary_row = row.children.text.strip.split("\n") # ["1", "Student, Three C. ", "G1234567", "**Web Registered**", "0", " ", "8"]
-          email_link = row.css("a").find{|a| a.attributes["h
+          email_link = row.css("a").find{|a| a.attributes["href"].value.include?("mailto:")
