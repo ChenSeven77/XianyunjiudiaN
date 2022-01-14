@@ -335,4 +335,4 @@ module George
           email_link = row.css("a").find{|a| a.attributes["href"].value.include?("mailto:") }
 
           student.merge!({
-          
+            :record_number => su
