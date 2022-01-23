@@ -336,4 +336,4 @@ module George
 
           student.merge!({
             :record_number => summary_row[0],
-            :full_name
+            :full_name => summary_row[1].strip, # Studen
