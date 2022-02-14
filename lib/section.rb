@@ -338,4 +338,5 @@ module George
             :record_number => summary_row[0],
             :full_name => summary_row[1].strip, # Student, Three C.
             :gwid => summary_row[2], # G1234567
-            :registration_status => summary_row[3].gsub("**",""), 
+            :registration_status => summary_row[3].gsub("**",""), # **Web Registered**
+       
