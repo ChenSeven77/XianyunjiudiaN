@@ -341,4 +341,4 @@ module George
             :registration_status => summary_row[3].gsub("**",""), # **Web Registered**
             :waitlist_position => summary_row[4],
             :notification_expires => summary_row[5].strip == " " ? nil : summary_row[5].strip, # " "
-           
+            :registration_numb
