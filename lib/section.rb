@@ -343,3 +343,5 @@ module George
             :notification_expires => summary_row[5].strip == " " ? nil : summary_row[5].strip, # " "
             :registration_number => summary_row[6],
             :email_address => email_link.attributes["href"].value.gsub("mailto:","") # student123@gwu.edu
+          })
+          summary
