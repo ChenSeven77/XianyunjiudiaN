@@ -344,4 +344,5 @@ module George
             :registration_number => summary_row[6],
             :email_address => email_link.attributes["href"].value.gsub("mailto:","") # student123@gwu.edu
           })
-          summary
+          summary_next = false
+          next
