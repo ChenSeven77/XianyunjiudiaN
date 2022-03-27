@@ -350,4 +350,4 @@ module George
 
         next if row.content == "\n \n"
 
-       
+        if row.content == "\nDegr
