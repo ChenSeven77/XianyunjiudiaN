@@ -348,4 +348,6 @@ module George
           next
         end
 
-        next if row.co
+        next if row.content == "\n \n"
+
+       
