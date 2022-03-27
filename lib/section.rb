@@ -346,3 +346,6 @@ module George
           })
           summary_next = false
           next
+        end
+
+        next if row.co
