@@ -353,4 +353,6 @@ module George
         if row.content == "\nDegree\n"
           degree_next = true
           next
-  
+        end
+
+        if degree_
