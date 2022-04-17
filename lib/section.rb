@@ -355,4 +355,5 @@ module George
           next
         end
 
-        if degree_
+        if degree_next == true
+          st
