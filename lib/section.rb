@@ -357,4 +357,4 @@ module George
 
         if degree_next == true
           student.merge!({
-            :deg
+            :degree => row.content.stri
