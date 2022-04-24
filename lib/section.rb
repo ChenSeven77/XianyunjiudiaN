@@ -356,4 +356,5 @@ module George
         end
 
         if degree_next == true
-          st
+          student.merge!({
+            :deg
