@@ -359,4 +359,5 @@ module George
           student.merge!({
             :degree => row.content.strip, # B.B.A
           })
-  
+          degree_next = false
+    
