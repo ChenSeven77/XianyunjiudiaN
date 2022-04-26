@@ -360,4 +360,7 @@ module George
             :degree => row.content.strip, # B.B.A
           })
           degree_next = false
-    
+          next
+        end
+
+     
