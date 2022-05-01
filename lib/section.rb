@@ -363,4 +363,6 @@ module George
           next
         end
 
-        if row.content.include?("Level:"
+        if row.content.include?("Level:")
+          student.merge!({
+    
