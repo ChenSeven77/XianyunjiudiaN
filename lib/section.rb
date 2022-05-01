@@ -365,4 +365,4 @@ module George
 
         if row.content.include?("Level:")
           student.merge!({
-    
+            :level => row.content.gsub("Le
