@@ -367,4 +367,5 @@ module George
           student.merge!({
             :level => row.content.gsub("Level:","").gsub("\n","").strip, # Undergraduate
           })
- 
+          next
+        end
