@@ -370,4 +370,5 @@ module George
           next
         end
 
-        if row.content.include?(
+        if row.content.include?("Program:")
+          student.m
