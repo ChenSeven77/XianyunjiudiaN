@@ -371,4 +371,5 @@ module George
         end
 
         if row.content.include?("Program:")
-          student.m
+          student.merge!({
+            :progr
