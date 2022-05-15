@@ -369,3 +369,5 @@ module George
           })
           next
         end
+
+        if row.content.include?(
