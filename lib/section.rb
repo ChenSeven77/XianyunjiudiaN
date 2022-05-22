@@ -372,4 +372,4 @@ module George
 
         if row.content.include?("Program:")
           student.merge!({
-            :program => row.content.gsub("Progr
+            :program => row.content.gsub("Program:","").gsub("\n","").strip, # Honor
