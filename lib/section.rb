@@ -377,4 +377,4 @@ module George
           next
         end
 
-        if row.con
+        if row.content.include?("Admit 
