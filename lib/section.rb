@@ -374,4 +374,7 @@ module George
           student.merge!({
             :program => row.content.gsub("Program:","").gsub("\n","").strip, # Honor's Program
           })
-          n
+          next
+        end
+
+        if row.con
