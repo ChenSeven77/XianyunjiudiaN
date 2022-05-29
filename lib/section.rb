@@ -377,4 +377,5 @@ module George
           next
         end
 
-        if row.content.include?("Admit 
+        if row.content.include?("Admit Term:")
+          student.
