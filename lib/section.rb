@@ -379,4 +379,4 @@ module George
 
         if row.content.include?("Admit Term:")
           student.merge!({
-            :admit_ter
+            :admit_term => row.content.gsub("Admit T
