@@ -384,4 +384,5 @@ module George
           next
         end
 
-        if row.cont
+        if row.content.include?("Admit Type:")
+  
