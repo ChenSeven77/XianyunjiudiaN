@@ -382,4 +382,6 @@ module George
             :admit_term => row.content.gsub("Admit Term:","").gsub("\n","").strip, # Fall 2014
           })
           next
-       
+        end
+
+        if row.cont
