@@ -385,4 +385,5 @@ module George
         end
 
         if row.content.include?("Admit Type:")
-  
+          student.merge!({
+     
