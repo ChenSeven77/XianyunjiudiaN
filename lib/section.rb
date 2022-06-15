@@ -386,4 +386,4 @@ module George
 
         if row.content.include?("Admit Type:")
           student.merge!({
-            :admit_type => row.cont
+            :admit_type => row.content.gsub("Admit Type:","").
