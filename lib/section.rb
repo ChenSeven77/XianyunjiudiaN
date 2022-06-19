@@ -386,4 +386,6 @@ module George
 
         if row.content.include?("Admit Type:")
           student.merge!({
-            :admit_type => row.content.gsub("Admit Type:","").gsub("\n","").strip, # 
+            :admit_type => row.content.gsub("Admit Type:","").gsub("\n","").strip, # Freshman--Early Dec1
+          })
+      
