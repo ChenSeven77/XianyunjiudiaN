@@ -388,4 +388,7 @@ module George
           student.merge!({
             :admit_type => row.content.gsub("Admit Type:","").gsub("\n","").strip, # Freshman--Early Dec1
           })
-      
+          next
+        end
+
+    
