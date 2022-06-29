@@ -391,4 +391,5 @@ module George
           next
         end
 
-        if row.content.include?("C
+        if row.content.include?("Catalog Term:")
+        
