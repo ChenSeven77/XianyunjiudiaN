@@ -392,4 +392,5 @@ module George
         end
 
         if row.content.include?("Catalog Term:")
-        
+          student.merge!({
+           
