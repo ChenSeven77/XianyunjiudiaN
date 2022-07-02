@@ -393,4 +393,4 @@ module George
 
         if row.content.include?("Catalog Term:")
           student.merge!({
-           
+            :catalog_term => row.content.
