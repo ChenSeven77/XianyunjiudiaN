@@ -394,4 +394,6 @@ module George
         if row.content.include?("Catalog Term:")
           student.merge!({
             :catalog_term => row.content.gsub("Catalog Term:","").gsub("\n","").strip, # Fall 2014
-    
+          })
+          next
+  
