@@ -399,4 +399,5 @@ module George
         end
 
         if row.content.include?("College:")
-          student.merge!(
+          student.merge!({
+            :college => 
