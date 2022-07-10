@@ -398,4 +398,5 @@ module George
           next
         end
 
-        if row.content.include?("Coll
+        if row.content.include?("College:")
+          student.merge!(
