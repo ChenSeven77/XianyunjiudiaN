@@ -398,4 +398,4 @@ module George
           next
         end
 
-        if row.
+        if row.content.include?("Coll
