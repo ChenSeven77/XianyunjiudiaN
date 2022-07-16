@@ -400,4 +400,4 @@ module George
 
         if row.content.include?("College:")
           student.merge!({
-            :college => 
+            :college => row.content.gsub("College:",""
