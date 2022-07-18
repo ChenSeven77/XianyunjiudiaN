@@ -400,4 +400,5 @@ module George
 
         if row.content.include?("College:")
           student.merge!({
-            :college => row.content.gsub("College:","").gsub("\n","").strip, # School o
+            :college => row.content.gsub("College:","").gsub("\n","").strip, # School of Business
+          }
