@@ -405,4 +405,5 @@ module George
           next
         end
 
-        if row.content.include?("C
+        if row.content.include?("Campus:")
+          student.m
