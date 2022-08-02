@@ -406,4 +406,5 @@ module George
         end
 
         if row.content.include?("Campus:")
-          student.m
+          student.merge!({
+            :campus =>
