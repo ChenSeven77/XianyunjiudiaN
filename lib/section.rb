@@ -412,4 +412,5 @@ module George
           next
         end
 
-        if row.content
+        if row.content.include?("Major:")
+          stud
