@@ -410,4 +410,6 @@ module George
             :campus => row.content.gsub("Campus:","").gsub("\n","").strip, # Main Campus
           })
           next
-        en
+        end
+
+        if row.content
