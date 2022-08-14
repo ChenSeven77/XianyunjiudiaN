@@ -413,4 +413,4 @@ module George
         end
 
         if row.content.include?("Major:")
-          stud
+          student[:majors] << row.content.gsub("
