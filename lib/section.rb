@@ -418,4 +418,4 @@ module George
         end
 
         if row.content.include?("Major and Department:")
-          student[:majors] << row.content.gsub("Major and Department:","").gsub("\n","").strip # "Information Systems, InfSy
+          student[:majors] << row.content.gsub("Major and Department:","").gsub("\n","").strip # "Information Systems, InfSystemsTechnologyMana
