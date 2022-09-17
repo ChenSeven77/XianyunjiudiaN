@@ -423,4 +423,4 @@ module George
         end
 
         if row.content.include?("Minor:")
-          student[:minors] << r
+          student[:minors] << row.content.gsub("Minor:",
