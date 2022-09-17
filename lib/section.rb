@@ -422,4 +422,5 @@ module George
           next
         end
 
-        if row.content.include?("Minor
+        if row.content.include?("Minor:")
+          student[:minors] << r
