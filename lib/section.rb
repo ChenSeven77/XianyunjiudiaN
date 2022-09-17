@@ -423,4 +423,5 @@ module George
         end
 
         if row.content.include?("Minor:")
-          student[:minors] << row.content.gsub("Minor:","").gsub("\n","").s
+          student[:minors] << row.content.gsub("Minor:","").gsub("\n","").strip # Pre-Business Administration
+ 
