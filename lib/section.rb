@@ -427,4 +427,5 @@ module George
           next
         end
 
-        if row.content.includ
+        if row.content.include?("Class:")
+          st
