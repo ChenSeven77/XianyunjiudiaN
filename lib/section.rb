@@ -428,4 +428,5 @@ module George
         end
 
         if row.content.include?("Class:")
-          st
+          student.merge!({
+           
