@@ -429,4 +429,6 @@ module George
 
         if row.content.include?("Class:")
           student.merge!({
-            :grad_class => row.content.gsub("Class:","").gsub("\n","").stri
+            :grad_class => row.content.gsub("Class:","").gsub("\n","").strip, # Sophomore
+          })
+ 
