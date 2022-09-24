@@ -429,4 +429,4 @@ module George
 
         if row.content.include?("Class:")
           student.merge!({
-           
+            :grad_class => row.content.gsub("C
