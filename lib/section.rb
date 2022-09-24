@@ -431,4 +431,5 @@ module George
           student.merge!({
             :grad_class => row.content.gsub("Class:","").gsub("\n","").strip, # Sophomore
           })
- 
+          next
+        end
