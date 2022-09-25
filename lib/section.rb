@@ -435,4 +435,5 @@ module George
         end
 
         if row.content.include?("Credits:")
-          stu
+          student.merge!({
+            :credits
