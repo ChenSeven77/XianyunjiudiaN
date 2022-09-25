@@ -436,4 +436,4 @@ module George
 
         if row.content.include?("Credits:")
           student.merge!({
-            :credits
+            :credits => row.content.gsub("Credits:",""
