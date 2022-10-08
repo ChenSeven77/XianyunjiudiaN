@@ -439,4 +439,7 @@ module George
             :credits => row.content.gsub("Credits:","").gsub("\n","").strip, # 3.000
           })
           save_next = true
-       
+          next
+        end
+
+    
