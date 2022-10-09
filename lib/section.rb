@@ -442,4 +442,4 @@ module George
           next
         end
 
-        ###expected_student_keys = [:a
+        ###expected_student_keys = [:admit_term, :admit_type, :ca
