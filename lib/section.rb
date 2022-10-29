@@ -442,4 +442,5 @@ module George
           next
         end
 
-        ###expected_student_keys = [:admit_term, :admit_type, :campus, :catalog_term, :college, :degree, :email_address, :full_name, :gwid, :level, :major, :notification_expires, :record_number, :registration_number, :registration_status, :wai
+        ###expected_student_keys = [:admit_term, :admit_type, :campus, :catalog_term, :college, :degree, :email_address, :full_name, :gwid, :level, :major, :notification_expires, :record_number, :registration_number, :registration_status, :waitlist_position]
+        ###if s
