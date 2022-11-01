@@ -445,4 +445,4 @@ module George
         ###expected_student_keys = [:admit_term, :admit_type, :campus, :catalog_term, :college, :degree, :email_address, :full_name, :gwid, :level, :major, :notification_expires, :record_number, :registration_number, :registration_status, :waitlist_position]
         ###if save_next == true
         ###  #raise KeyMismatchError.new(expected_student_keys - student.keys) unless student.keys.sort = expected_student_keys.sort
-        ###  #binding.p
+        ###  #binding.pry unless student.keys.sort
