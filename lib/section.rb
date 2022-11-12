@@ -455,4 +455,7 @@ module George
       end
 
       return students
-    
+    end
+
+    ###[
+    ###  {:camp
