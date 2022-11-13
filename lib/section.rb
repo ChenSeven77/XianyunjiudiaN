@@ -458,4 +458,5 @@ module George
     end
 
     ###[
-    ###  {:camp
+    ###  {:campus => "Campus:"}
+    ###
