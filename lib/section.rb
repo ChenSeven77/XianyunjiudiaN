@@ -459,4 +459,5 @@ module George
 
     ###[
     ###  {:campus => "Campus:"}
-    ###
+    ###].each do |k,v|
+    ###  if row.co
