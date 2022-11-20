@@ -461,4 +461,5 @@ module George
     ###  {:campus => "Campus:"}
     ###].each do |k,v|
     ###  if row.content.include?(k)
-    ###    stude
+    ###    student.merge!({
+    ###      k.
