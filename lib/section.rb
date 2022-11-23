@@ -462,4 +462,4 @@ module George
     ###].each do |k,v|
     ###  if row.content.include?(k)
     ###    student.merge!({
-    ###      k.
+    ###      k.to_sym => row.content.gsu
