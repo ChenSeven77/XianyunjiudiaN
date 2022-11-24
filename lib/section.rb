@@ -463,3 +463,6 @@ module George
     ###  if row.content.include?(k)
     ###    student.merge!({
     ###      k.to_sym => row.content.gsub(v,"").gsub("\n","").strip,
+    ###    })
+    ###    next
+    
