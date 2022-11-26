@@ -465,4 +465,7 @@ module George
     ###      k.to_sym => row.content.gsub(v,"").gsub("\n","").strip,
     ###    })
     ###    next
+    ###  end
+    ###end
+
     
