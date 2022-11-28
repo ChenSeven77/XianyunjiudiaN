@@ -468,4 +468,9 @@ module George
     ###  end
     ###end
 
-    class KeyMismatchError 
+    class KeyMismatchError < StandardError ; end
+
+
+
+
+
