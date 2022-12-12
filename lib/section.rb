@@ -513,4 +513,7 @@ module George
 
 
 
-    ###def stude
+    ###def student_addresses
+###
+    ###  addresses = []
+#
