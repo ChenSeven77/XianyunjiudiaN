@@ -518,4 +518,4 @@ module George
     ###  addresses = []
 ###
     ###  #
-    ###  # Loop t
+    ###  # Loop through all .html files in  reports/s
