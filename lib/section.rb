@@ -532,4 +532,7 @@ module George
 
     ###def student_transcripts
 ###
-    ###  addr
+    ###  addresses = []
+###
+    ###  #
+    ###  # Loop
