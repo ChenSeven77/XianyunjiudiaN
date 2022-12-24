@@ -538,4 +538,5 @@ module George
     ###  # Loop through all .html files in  reports/students/transcripts
     ###  #
 ###
-    ###  r
+    ###  return transcripts
+    ###e
