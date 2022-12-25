@@ -17,3 +17,23 @@
 ###      @waitlist_position = attributes[:waitlist_position]
 ###      @notification_expires = attributes[:notification_expires]
 ###      @registration_number = attributes[:registration_number]
+###      @email_address = attributes[:email_address]
+###      @degree = attributes[:degree]
+###      @level = attributes[:level]
+###      @program = attributes[:program]
+###      @admit_term = attributes[:admit_term]
+###      @admit_type = attributes[:admit_type]
+###      @catalog_term = attributes[:catalog_term]
+###      @college = attributes[:college]
+###      @campus = attributes[:campus]
+###      @majors = attributes[:major] || []
+###      @minors = attributes[:minors] || []
+###      @grad_class = attributes[:grad_class]
+###      @credits  = attributes[:credits]
+###    end
+###
+###    def net_id
+###      email_address.gsub("@gwu.edu", "")
+###    end
+###  end
+###end
