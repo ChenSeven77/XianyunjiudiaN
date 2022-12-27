@@ -31,3 +31,17 @@ module George
     end
 
     def course_ids
+      self.courses_dir.entries.reject{|t| t.include?(".")} # converts [".", "..", "201502", "201503"] to ["201502", "201503"]
+    end
+
+    def courses
+      self.course_ids.map do |course_id|
+        course_file = File.join(self.courses_path, course_id, "course.json")
+        course_file_contents = File.read(course_file)
+        course_attributes = JSON.parse(course_file_contents, :symbolize_names => true)
+        course_attributes.merge!({:term_id => self.id})
+        Course.new(course_attributes)
+      end
+    end
+  end
+end
