@@ -2,4 +2,4 @@
 # to run from the root directory: `ruby script/generate_enrollment_reports.rb`
 #
 
-# Genera
+# Generate enrollment report for each curren
