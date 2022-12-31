@@ -6,4 +6,4 @@
 
 require_relative "../lib/george.rb"
 
-current_cou
+current_courses = George::Term.current.
