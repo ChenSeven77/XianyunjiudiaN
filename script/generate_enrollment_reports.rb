@@ -4,4 +4,6 @@
 
 # Generate enrollment report for each current course.
 
-require_relative "../li
+require_relative "../lib/george.rb"
+
+current_cou
