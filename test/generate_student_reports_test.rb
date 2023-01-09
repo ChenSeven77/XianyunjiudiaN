@@ -1,2 +1,3 @@
 #
-# test for script/generate_stude
+# test for script/generate_student_reports.rb
+# to run from
