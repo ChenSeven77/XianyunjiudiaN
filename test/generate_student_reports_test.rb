@@ -3,4 +3,5 @@
 # to run from the root directory: `ruby test/generate_student_reports_test.rb`
 #
 
-require_relative "../lib/geo
+require_relative "../lib/george.rb"
+test_results
