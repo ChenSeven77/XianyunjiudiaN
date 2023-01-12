@@ -4,4 +4,6 @@
 #
 
 require_relative "../lib/george.rb"
-test_results
+test_results = []
+
+current_courses = George:
