@@ -7,4 +7,5 @@ require_relative "../lib/george.rb"
 test_results = []
 
 current_courses = George::Term.current.courses
-current_sections = current_courses.map{|course| cou
+current_sections = current_courses.map{|course| course.sections }.flatten
+current
