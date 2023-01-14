@@ -7,4 +7,4 @@ require_relative "../lib/george.rb"
 test_results = []
 
 current_courses = George::Term.current.courses
-current
+current_sections = current_courses.map{|course| cou
