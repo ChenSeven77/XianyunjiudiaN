@@ -6,4 +6,5 @@
 require_relative "../lib/george.rb"
 test_results = []
 
-current_courses = George:
+current_courses = George::Term.current.courses
+current
