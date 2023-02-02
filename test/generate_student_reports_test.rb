@@ -10,4 +10,5 @@ current_courses = George::Term.current.courses
 current_sections = current_courses.map{|course| course.sections }.flatten
 current_sections.each do |section|
   report_path = section.student_report_path
-  pp report_pat
+  pp report_path
+  FileUtils.rm_f(rep
