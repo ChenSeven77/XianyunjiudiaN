@@ -9,4 +9,5 @@ test_results = []
 current_courses = George::Term.current.courses
 current_sections = current_courses.map{|course| course.sections }.flatten
 current_sections.each do |section|
-  report_path = section.stude
+  report_path = section.student_report_path
+  pp report_pat
