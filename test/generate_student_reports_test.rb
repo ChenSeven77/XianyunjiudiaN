@@ -15,4 +15,4 @@ current_sections.each do |section|
 
   section.generate_student_report
 
-  test_results 
+  test_results << (File.exist?(repor
