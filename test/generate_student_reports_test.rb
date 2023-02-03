@@ -13,4 +13,6 @@ current_sections.each do |section|
   pp report_path
   FileUtils.rm_f(report_path)
 
-  section.generate_
+  section.generate_student_report
+
+  test_results 
