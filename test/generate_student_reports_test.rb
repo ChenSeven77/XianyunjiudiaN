@@ -16,4 +16,4 @@ current_sections.each do |section|
   section.generate_student_report
 
   test_results << (File.exist?(report_path) ?  true : false) # expect the report file to exist
-  test_results << (IO.readlines(report_path)
+  test_results << (IO.readlines(report_path).length >= 34 ? true : false) #todo: expe
