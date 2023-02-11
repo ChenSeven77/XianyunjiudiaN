@@ -19,4 +19,4 @@ current_sections.each do |section|
   test_results << (IO.readlines(report_path).length >= 34 ? true : false) #todo: expect it to contain the expected number of students
 end
 
-put
+puts "TEST PASSES? -- #{test_results.uniq
